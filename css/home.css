@@ -1,0 +1,23 @@
+html{
+    background-color: aliceblue;
+}
+
+table{
+    width: 740px;
+    border: 1px solid darkgray;
+}
+
+td{
+    height: 30px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+body p table tr:hover{
+    background-color: darkcyan;
+}
+
+.cabecalho{
+    background-color: lightslategray;
+    color: coral;
+}

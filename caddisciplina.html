@@ -1,0 +1,59 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadatro de Disciplina</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pagina.min.css">
+</head>
+<body>
+
+    <!-- Métrodo GET do formulário
+    http://www.fatec.com.br/ --- Endereço do servidor
+    syschool/ --- diretório
+    caddisciplina.html ---- Arquivo html da página de cadastro
+    ? ---- Separador de URL 
+    txtCodigo=10  ---- Campo do formulário que ser tornou parâmetro
+    & --- Concatenção
+    txtNomeDisc=Programa%C3%A7%C3%A3o+Web  ---- Campo do formulário
+    -->
+
+    <p align="center">
+        <table>
+            <tr>
+                <td>
+                    <img src="img/sislogo.png" width="740px" height="180px">
+                </td>
+            </tr>
+        </table>
+    </p>
+
+    <P align="center">
+        <table>
+            <tr class="p-3 bg-secondary text-white">
+                <td>Cadatro de Disciplina</td>
+            </tr>
+
+            <form action="caddisciplina.php" method="post">
+
+                <tr>
+                    <td>Código de disciplina: <input type="text" name="txtCodigo" size="5"> </td>
+                </tr>
+                <tr>
+                    <td>Nome da Disciplina: <input type="text" name="txtNomeDisc" size="50"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>                        
+            
+            </form>
+            
+        </table>
+    </P>
+
+
+
+
+</body>
+</html>
